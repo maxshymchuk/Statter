@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <style>
+        html, body {
+            margin: 0 !important;
+            padding: 0 !important;
+            overflow: hidden;
+            font-family: "Pixelify Sans", sans-serif;
+        }
+        .alert {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            font-size: 140px;
+            user-select: none;
+            visibility: hidden;
+            background-color: #00000011;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div class="alert" id="gameover">
+        Game Over
+    </div>
+    <div class="alert" id="pause">
+        Pause
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
